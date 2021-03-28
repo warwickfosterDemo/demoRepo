@@ -2,4 +2,4 @@ This is a new sample file
 
 This is some new changes
 
-And this one is for #5
+And this one is for #6
