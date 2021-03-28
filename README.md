@@ -1,7 +1,7 @@
 # GitHub Training
 My list of GitHub Training Courses
 
-## Training Labs
+## [Training Labs](https://lab.github.com/githubtraining/)
 - Intro (hours 6)
 - Ramp Up Learning Path (hours 6) 
 - Learning Path (hours 16)
