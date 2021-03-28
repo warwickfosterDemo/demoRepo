@@ -3,28 +3,28 @@ using System.Linq;
 using demoApp.Controllers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
+using Microsoft.Extensions.Logging;
 
 namespace demoTest
 {
     [TestClass]
-    public class WeatherForecastController
+    public class TestWeatherForecastController
     {
-        [TestMethod]
-        public void WeatherForecastControllerTest()
+        WeatherForecastController weatherForecastController;
+        IEnumerable<WeatherForecast> weatherForecastResponse;
+
+        [TestInitialize]
+        public void Setup()
         {
-            //Set
-            demoApp.Controllers.WeatherForecastController weatherForecastController = new demoApp.Controllers.WeatherForecastController(null);
-            
-            //Test
-            Assert.IsNotNull(weatherForecastController);
-
-
-            //Set
-            IEnumerable<WeatherForecast> weatherResult = weatherForecastController.Get();
-            
-            //Test
-            Assert.IsNotNull(weatherResult);
-            Assert.AreNotEqual(0, weatherResult.ToList().Count);
+            ILoggerFactory loggerFactory = new LoggerFactory();
+            ILogger<WeatherForecastController> logger = loggerFactory.CreateLogger<WeatherForecastController>();
+            weatherForecastController = new WeatherForecastController(logger);
+            weatherForecastResponse = weatherForecastController.Get();
         }
+
+        [TestMethod] public void WeatherForecastControllerIsNotNull() => Assert.IsNotNull(weatherForecastController);
+        [TestMethod] public void GetWeatherForecastIsNotNull() => Assert.IsNotNull(weatherForecastResponse);
+        [TestMethod] public void GetWeatherForecastHasContent() => Assert.AreNotEqual(0, weatherForecastResponse.ToList().Count);
+        [TestMethod] public void GetWeatherForecastHas5Rows() => Assert.AreEqual(5, weatherForecastResponse.ToList().Count);
     }
 }
