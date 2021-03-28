@@ -60,9 +60,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\demoApp\demoApp.csproj">
-      <Project>{c568bbaf-c188-419d-b68f-881b8e7c0c6d}</Project>
-      <Name>demoApp</Name>
+    <ProjectReference Include="..\demoFramework\demoFramework.csproj">
+      <Project>{eee4cf47-a5a7-45ee-ac03-db5d950d09e0}</Project>
+      <Name>demoFramework</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
