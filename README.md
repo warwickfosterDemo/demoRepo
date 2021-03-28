@@ -14,8 +14,8 @@ My list of GitHub Training Courses
 - [DevOps with github actions](https://lab.github.com/githubtraining/devops-with-github-actions)
 
 ## Specific Courses
-|Complete|Group|Description|Time|
-|-|-|-|-|
+|Group|Description|Time|
+|-|-|-|
 |Intro|[Community starter kit](https://lab.github.com/githubtraining/community-starter-kit)|79|
 |Intro|[Connect the dots in a GitHub repository](https://lab.github.com/githubtraining/connect-the-dots-in-a-github-repository)|26|
 |Intro|[Create an open source program](https://lab.github.com/githubtraining/create-an-open-source-program)|76|
