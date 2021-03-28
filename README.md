@@ -25,19 +25,19 @@ My list of GitHub Training Courses
 |Intro|[Reviewing pull requests](https://lab.github.com/githubtraining/reviewing-pull-requests)|35|
 |Ramp Up Learning Path|[Communicating using Markdown](https://lab.github.com/githubtraining/communicating-using-markdown)|48|
 |Ramp Up Learning Path|[Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github)|59|
-|Ramp Up Learning Path|[GitHub |: Hello World](https://lab.github.com/githubtraining/github-actions:-hello-world)|37|
+|Ramp Up Learning Path|[GitHub: Hello World](https://lab.github.com/githubtraining/github-actions:-hello-world)|37|
 |Ramp Up Learning Path|[Uploading your project to GitHub](https://lab.github.com/githubtraining/uploading-your-project-to-github)|39|
 |Ramp Up Learning Path|[Create a release based workflow](https://lab.github.com/githubtraining/create-an-open-source-program)|87|
 |Ramp Up Learning Path|[Securing your workflows](https://lab.github.com/githubtraining/securing-your-workflows)|20|
 |Ramp Up Learning Path|[Migrating your repository to GitHub](https://lab.github.com/githubtraining/migrating-your-repository-to-github)|28|
 |Ramp Up Learning Path|[InnerSource fundamentals](https://lab.github.com/githubtraining/innersource-fundamentals)|36|
-|Learning Path|[GitHub |: Continuous Delivery with AWS](https://lab.github.com/githubtraining/github-actions:-continuous-delivery-with-aws)|98|
-|Learning Path|[GitHub |: Continuous Delivery with Azure](https://lab.github.com/githubtraining/github-actions:-continuous-delivery-with-azure)|116|
-|Learning Path|[GitHub |: Continuous Integration](https://lab.github.com/githubtraining/github-actions:-continuous-integration)|134|
-|Learning Path|[GitHub |: Publish to GitHub Packages](https://lab.github.com/githubtraining/github-actions:-publish-to-github-packages)|21|
-|Learning Path|[GitHub |: Using GitHub Script](https://lab.github.com/githubtraining/github-actions:-using-github-script)|18|
-|Learning Path|[GitHub |: Write Docker container actions](https://lab.github.com/githubtraining/github-actions:-write-docker-container-actions)|133|
-|Learning Path|[GitHub |: Writing JavaScript |](https://lab.github.com/githubtraining/github-actions:-writing-javascript-actions)|90|
+|Learning Path|[GitHub: Continuous Delivery with AWS](https://lab.github.com/githubtraining/github-actions:-continuous-delivery-with-aws)|98|
+|Learning Path|[GitHub: Continuous Delivery with Azure](https://lab.github.com/githubtraining/github-actions:-continuous-delivery-with-azure)|116|
+|Learning Path|[GitHub: Continuous Integration](https://lab.github.com/githubtraining/github-actions:-continuous-integration)|134|
+|Learning Path|[GitHub: Publish to GitHub Packages](https://lab.github.com/githubtraining/github-actions:-publish-to-github-packages)|21|
+|Learning Path|[GitHub: Using GitHub Script](https://lab.github.com/githubtraining/github-actions:-using-github-script)|18|
+|Learning Path|[GitHub: Write Docker container actions](https://lab.github.com/githubtraining/github-actions:-write-docker-container-actions)|133|
+|Learning Path|[GitHub: Writing JavaScript |](https://lab.github.com/githubtraining/github-actions:-writing-javascript-actions)|90|
 |General|[Introduction to Design Thinking](https://lab.github.com/githubtraining/introduction-to-design-thinking)|54|
 |General|[Introduction to HTML](https://lab.github.com/githubtraining/introduction-to-html)|94|
 |General|[Introduction to React](https://lab.github.com/githubtraining/introduction-to-react)|229|
