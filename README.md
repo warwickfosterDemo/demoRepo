@@ -1,5 +1,10 @@
 # GitHub Training
 My list of GitHub Training Courses
+<!-- 
+
+Multi line comment in markdown
+
+-->
 
 ## [Training Labs](https://lab.github.com/githubtraining/)
 - Intro (hours 6)
